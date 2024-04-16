@@ -1,0 +1,36 @@
+:root{
+    --spacing: 10px;
+    --blur: 5px;
+    --color: #ffb700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    text-align: center;
+    background: #193550;
+    color: wheat;
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 20px;
+}
+
+.controls{
+    margin-bottom: 40px;
+}
+
+.image{
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+    background: var(--color);
+    width: 50%;
+}
+
+.hl{
+    color: var(--color);
+}
